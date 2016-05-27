@@ -1,4 +1,4 @@
-package com.example.abril.prestapp;
+package www.ittepic.edu.mx.prestapp;
 
 
         import android.content.Intent;
@@ -11,7 +11,7 @@ package com.example.abril.prestapp;
         import android.widget.Toast;
 
 
-        import com.example.abril.prestapp.R;
+        importwww.ittepic.edu.mx.prestapp.R;
 
 public class Main extends ActionBarActivity {
 
