@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.abril.prestapp.R;
+import www.ittepic.edu.mx.prestapp.R;
 
 /**
  * Created by abril on 25/05/16.
