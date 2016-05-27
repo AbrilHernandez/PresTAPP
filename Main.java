@@ -11,7 +11,7 @@ package www.ittepic.edu.mx.prestapp;
         import android.widget.Toast;
 
 
-        importwww.ittepic.edu.mx.prestapp.R;
+        import www.ittepic.edu.mx.prestapp.R;
 
 public class Main extends ActionBarActivity {
 
