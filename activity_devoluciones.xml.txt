@@ -6,7 +6,7 @@
    android:paddingRight="@dimen/activity_horizontal_margin"
    android:paddingTop="@dimen/activity_vertical_margin"
    android:paddingBottom="@dimen/activity_vertical_margin"
-   tools:context="com.example.carpediem.reminderapp.Devoluciones"
+   tools:context="www.ittepic.edu.mx.prestapp.Devoluciones"
    android:background="#1B0F8E">
 
    <ListView
