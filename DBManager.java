@@ -1,4 +1,4 @@
-package com.example.abril.prestapp;
+package www.ittepic.edu.mx.prestapp;
 
 import android.content.ContentValues;
 import android.content.Context;
