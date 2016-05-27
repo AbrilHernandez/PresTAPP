@@ -13,7 +13,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.abril.prestapp.R;
+import www.ittepic.edu.mx.prestapp.R;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
