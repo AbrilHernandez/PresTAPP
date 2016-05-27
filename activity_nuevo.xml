@@ -1,133 +1,246 @@
-activity_nuevo
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-   android:la yout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-   android:paddingRight="@dimen/activity_horizontal_margin"
-   android:paddingTop="@dimen/activity_vertical_margin"
-   android:paddingBottom="@dimen/activity_vertical_margin"
-   tools:context="com.example.carpediem.reminderapp.Nuevo"
-   android:background="#ffffff">
 
-   <LinearLayout
-       android:orientation="vertical"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:layout_alignParentTop="true"
-       android:layout_alignParentLeft="true"
-       android:layout_alignParentStart="true"
-       android:weightSum="1">
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
 
-       <LinearLayout
-           android:orientation="vertical"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:layout_weight="0.65"
-           android:weightSum="1">
+    android:layout_height="match_parent"
 
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:textAppearance="?android:attr/textAppearanceMedium"
-               android:text="Categoria"
-               android:textColor="#000000"
-               android:id="@+id/textView" />
+    android:paddingLeft="@dimen/activity_horizontal_margin"
 
-           <Spinner
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:id="@+id/spinner" />
+    android:paddingRight="@dimen/activity_horizontal_margin"
 
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:textAppearance="?android:attr/textAppearanceMedium"
-               android:text="Especificación de articulo:"
-               android:textColor="#000000"
-               android:id="@+id/textView2" />
+    android:paddingTop="@dimen/activity_vertical_margin"
 
-           <EditText
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:id="@+id/campoEspe"
-               android:layout_weight="0.13" />
+    android:paddingBottom="@dimen/activity_vertical_margin"
 
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:textAppearance="?android:attr/textAppearanceMedium"
-               android:text="Prestado a:"
-               android:textColor="#000000"
-               android:id="@+id/textView3" />
+    tools:context="com.example.abril.prestapp.Nuevo"
 
-           <EditText
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:id="@+id/campoNombre"
-               android:layout_weight="0.14" />
+    android:background="#ffffff">
 
-           <LinearLayout
-               android:orientation="horizontal"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_weight="0.09">
+    <LinearLayout
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:textAppearance="?android:attr/textAppearanceMedium"
-                   android:text="Fecha de Prestamo:"
-                   android:textColor="#000000"
-                   android:id="@+id/textView4" />
+        android:orientation="vertical"
 
-               <EditText
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:inputType="date"
-                   android:ems="10"
-                   android:id="@+id/campoFechaP"
-                   android:layout_weight="1"
-                   android:editable="true" />
-           </LinearLayout>
+        android:layout_width="match_parent"
 
-           <LinearLayout
-               android:orientation="horizontal"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_weight="0.09">
+        android:layout_height="match_parent"
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:textAppearance="?android:attr/textAppearanceMedium"
-                   android:text="Fecha de Entrega:"
-                   android:textColor="#000000"
-                   android:id="@+id/textView5" />
+        android:layout_alignParentTop="true"
 
-               <EditText
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:inputType="date"
-                   android:ems="10"
-                   android:id="@+id/campoFechaE"
-                   android:layout_weight="1" />
-           </LinearLayout>
+        android:layout_alignParentLeft="true"
 
-<Button
- 		     android:layout_width="96dp"
-  		     android:layout_height="91dp"
-  		     android:background="#2B76C1"
-  		     android:text="Guardar"
- 	 	     android:textColor="#ffffff"
- 	 	     android:padding="7dp"
- 		     android:layout_margin="8dp"
- 	 	     android:id="@+id/imageButton"
-  		     android:onClick="guardar"
-   		     android:layout_gravity="center_horizontal" />
+        android:layout_alignParentStart="true"
 
+        android:weightSum="1">
 
-       </LinearLayout>
+        <LinearLayout
 
-   </LinearLayout>
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.65"
+
+            android:weightSum="1">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:text="Categoria"
+
+                android:textColor="#000000"
+
+                android:id="@+id/textView" />
+
+            <Spinner
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:id="@+id/spinner" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:text="EspecificaciÃ³n de articulo:"
+
+                android:textColor="#000000"
+
+                android:id="@+id/textView2" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:id="@+id/campoEspe"
+
+                android:layout_weight="0.13" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:text="Prestado a:"
+
+                android:textColor="#000000"
+
+                android:id="@+id/textView3" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:id="@+id/campoNombre"
+
+                android:layout_weight="0.14" />
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.09">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:text="Fecha de Prestamo:"
+
+                    android:textColor="#000000"
+
+                    android:id="@+id/textView4" />
+
+                <EditText
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:inputType="date"
+
+                    android:ems="10"
+
+                    android:id="@+id/campoFechaP"
+
+                    android:layout_weight="1"
+
+                    android:editable="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.09">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:text="Fecha de Entrega:"
+
+                    android:textColor="#000000"
+
+                    android:id="@+id/textView5" />
+
+                <EditText
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:inputType="date"
+
+                    android:ems="10"
+
+                    android:id="@+id/campoFechaE"
+
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Button
+
+                android:layout_width="96dp"
+
+                android:layout_height="91dp"
+
+                android:background="#2B76C1"
+
+                android:text="Guardar"
+
+                android:textColor="#ffffff"
+
+                android:padding="7dp"
+
+                android:layout_margin="8dp"
+
+                android:id="@+id/imageButton"
+
+                android:onClick="guardar"
+
+                android:layout_gravity="center_horizontal" />
+            <Button
+
+                android:layout_width="96dp"
+
+                android:layout_height="40dp"
+
+                android:background="#2B76C1"
+
+                android:text="REGRESAR"
+
+                android:textColor="#ffffff"
+
+                android:padding="7dp"
+
+                android:layout_margin="8dp"
+
+                android:id="@+id/Regresar"
+
+                android:onClick="regresar"
+
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </RelativeLayout>
-
