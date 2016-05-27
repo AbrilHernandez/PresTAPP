@@ -13,7 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.abril.prestapp.R;
+import www.ittepic.edu.mx.prestapp.R;
 
 /**
  * Created by abril on 25/05/16.
